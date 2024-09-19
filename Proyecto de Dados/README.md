@@ -20,3 +20,4 @@ Cambio de Imagen: Las imágenes de los dados cambian según el número generado,
 Resultado: Se compara el número de ambos jugadores. Si el número de Player 1 es mayor, se muestra "Player 1 wins". Si el número de Player 2 es mayor, se muestra "Player 2 wins". Si ambos números son iguales, se muestra "It is a Draw".
 
 Reiniciar Juego: El juego se reinicia automáticamente cada vez que se presiona el botón "Play again".
+![image](https://github.com/user-attachments/assets/45506c4d-fb07-4c3e-8537-2b523f024d36)
