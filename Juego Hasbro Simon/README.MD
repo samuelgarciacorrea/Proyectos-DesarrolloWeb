@@ -25,6 +25,6 @@ El proyecto está compuesto por los siguientes archivos:
 
 - index.html: Contiene la estructura de la página, incluidos los botones del juego.
 - styles.css: Define el estilo de los botones y el diseño de la página.
-- game.js: Contiene la lógica del juego, incluidas las funciones que gestionan las secuencias y la interacción del usuario.
+- index.js: Contiene la lógica del juego, incluidas las funciones que gestionan las secuencias y la interacción del usuario.
 
-Ejemplo:
+
