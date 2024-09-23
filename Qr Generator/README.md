@@ -24,9 +24,4 @@ El generador de códigos QR permite a los usuarios introducir un texto o URL, y 
 
 ![image](Muestra.PNG)
 
-## Instalación y Uso
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/qr-generador.git
 
