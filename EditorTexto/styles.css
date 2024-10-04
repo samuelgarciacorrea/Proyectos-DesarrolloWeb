@@ -42,3 +42,11 @@ button {
     color: #020929;
     cursor: pointer;
 }
+
+#text-input{
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    height: 50vh;
+}
+
