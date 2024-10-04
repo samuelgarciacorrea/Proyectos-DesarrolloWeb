@@ -2,61 +2,71 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-	<link rel="stylesheet" href="styles.css">
-	<title>Editor De Texto</title>
+    <meta charset="UTF-8">
+    <!-- Asegura que la página es compatible con IE y otros navegadores -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Controla la escala de la página en diferentes dispositivos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlace a la librería de íconos Font Awesome para los botones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Editor De Texto</title>
 </head>
 
 <body>
-	<div class="container">
-		<div class="options">
-			<button id="bold" class="option-button format">
-				<i class="fa-solid fa-bold"></i>
-			</button>
-			<!-- Otros botones irán aquí -->
-		</div>
-		<div id="text-input" contenteditable="true"></div>
-		<div class="options">
-			<button id="bold" class="option-button format">
-				<i class="fa-solid fa-bold"></i>
-			</button>
-			<button id="insertOrderedList" class="option-button">
-				<i class="fa-solid fa-list-ol"></i>
-			</button>
-			<button id="insertUnorderedList" class="option-button">
-				<i class="fa-solid fa-list"></i>
-			</button>
-			<button id="justifyLeft" class="option-button align">
-				<i class="fa-solid fa-align-left"></i>
-			</button>
-			<button id="justifyCenter" class="option-button align">
-				<i class="fa-solid fa-align-center"></i>
-			</button>
-			<button id="justifyRight" class="option-button align">
-				<i class="fa-solid fa-align-right"></i>
-			</button>
-			<select id="fontName" class="adv-option-button"></select>
-<select id="fontSize" class="adv-option-button">
-
-
-</select>
-
-<div class="input-wrapper">
-	<input type="color" id="foreColor" class="adv-option-button">
-	<label for="foreColor">Font Color</label>
-</div>
-<div class="input-wrapper">
-	<input type="color" id="backColor" class="adv-option-button">
-	<label for="backColor">Highlight Color</label>
-</div>
-		</div>
-	</div>		
-
-	<script src="index.js"></script>
-
+    <div class="container">
+        <h1>Tu editor de codigo</h1>
+        <div class="options">
+            <!-- Botón de negrita -->
+            <button id="bold" class="option-button format">
+                <i class="fa-solid fa-bold"></i>
+            </button>
+            <!-- Botón de lista ordenada -->
+            <button id="insertOrderedList" class="option-button">
+                <i class="fa-solid fa-list-ol"></i>
+            </button>
+            <!-- Botón de lista no ordenada -->
+            <button id="insertUnorderedList" class="option-button">
+                <i class="fa-solid fa-list"></i>
+            </button>
+            <!-- Botones de alineación de texto -->
+            <button id="justifyLeft" class="option-button align">
+                <i class="fa-solid fa-align-left"></i>
+            </button>
+            <button id="justifyCenter" class="option-button align">
+                <i class="fa-solid fa-align-center"></i>
+            </button>
+            <button id="justifyRight" class="option-button align">
+                <i class="fa-solid fa-align-right"></i>
+            </button>
+            <!-- Selección de fuente -->
+            <select id="fontName" class="adv-option-button"></select>
+            <!-- Selección de tamaño de fuente -->
+            <select id="fontSize" class="adv-option-button"></select>
+            <!-- Selección de color de texto -->
+            <div class="input-wrapper">
+                <input type="color" id="foreColor" class="adv-option-button">
+                <label for="foreColor">Color de Letra</label>
+            </div>
+            <!-- Selección de color de fondo -->
+            <div class="input-wrapper">
+                <input type="color" id="backColor" class="adv-option-button">
+                <label for="backColor">Color de Sombreado</label>
+            </div>
+            <!-- Botón para crear enlace -->
+            <button id="createLink" class="adv-option-button">
+                <i class="fa fa-link"></i>
+            </button>
+            <!-- Botón para eliminar enlace -->
+            <button id="unlink" class="option-button">
+                <i class="fa fa-unlink"></i>
+            </button>
+        </div>
+        <!-- Área editable donde el usuario puede escribir -->
+        <div id="text-input" contenteditable="true"></div>
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
