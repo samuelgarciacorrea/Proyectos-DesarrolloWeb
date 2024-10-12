@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin: 0;
+}
+
+#resultados {
+    padding: 60px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.result {
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.result .score {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9534f;
+}
