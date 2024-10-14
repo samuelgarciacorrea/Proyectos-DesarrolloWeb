@@ -1,0 +1,43 @@
+/* Fondo de pantalla */
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo del reloj */
+#reloj {
+    text-align: center;
+}
+
+.reloj-contenedor {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Hora principal */
+#hora {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+/* Fecha */
+#fecha {
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: #e0e0e0;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
