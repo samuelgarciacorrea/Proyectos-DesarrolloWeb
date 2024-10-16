@@ -16,4 +16,4 @@ JavaScript para agregar la funcionalidad
 - Y ya el usuario no debe hacer nada mas
 
 Muestra:
-![image](./image.PNG)
+![image](image.PNG)
