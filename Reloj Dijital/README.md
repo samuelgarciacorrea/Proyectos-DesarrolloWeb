@@ -16,4 +16,5 @@ JavaScript para agregar la funcionalidad
 - Y ya el usuario no debe hacer nada mas
 
 Muestra:
-![image](image.PNG)
+![image](https://github.com/user-attachments/assets/8792e38f-6579-4e7f-b1cb-5122bb2a6a30)
+
