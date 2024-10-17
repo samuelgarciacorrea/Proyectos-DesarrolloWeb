@@ -21,4 +21,4 @@ JavaScript para agregar la funcionalidad
 ### Funcionamiento
 - Se carga la pagina y se el total de dinero restante, dependiendo de cuanto dinero hayamos ingresado y de cuales son nuestros ingresos, podemos, agregar o eliminar egresos y ingresos
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/b9a01f6e-b730-429f-92eb-e3e198b05617)
